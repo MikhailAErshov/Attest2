@@ -1,0 +1,203 @@
+{
+  "uid" : "7aa1b64f609ec5d9",
+  "name" : "shouldGetWeatherWithTempClass()",
+  "fullName" : "WeatherTest.shouldGetWeatherWithTempClass",
+  "historyId" : "d44f8f99dd3c33cbdd11d693b89641eb",
+  "time" : {
+    "start" : 1681408740013,
+    "stop" : 1681408740632,
+    "duration" : 619
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpRequest",
+    "time" : {
+      "start" : 1681408728794,
+      "stop" : 1681408730390,
+      "duration" : 1596
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "isEqualTo '42.3584'",
+      "time" : {
+        "start" : 1681408740629,
+        "stop" : 1681408740630,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "isEqualTo '42.3584'",
+        "time" : {
+          "start" : 1681408740630,
+          "stop" : 1681408740630,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "isEqualTo '-71.0598'",
+      "time" : {
+        "start" : 1681408740630,
+        "stop" : 1681408740631,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "isEqualTo '-71.0598'",
+        "time" : {
+          "start" : 1681408740631,
+          "stop" : 1681408740631,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "isEqualTo 'Boston'",
+      "time" : {
+        "start" : 1681408740631,
+        "stop" : 1681408740631,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "isEqualTo 'Boston'",
+        "time" : {
+          "start" : 1681408740631,
+          "stop" : 1681408740631,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "isEqualTo 'US'",
+      "time" : {
+        "start" : 1681408740631,
+        "stop" : 1681408740631,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "isEqualTo 'US'",
+        "time" : {
+          "start" : 1681408740631,
+          "stop" : 1681408740631,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "MIKHAIL-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5624@MIKHAIL-PC.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "WeatherTest"
+  }, {
+    "name" : "testClass",
+    "value" : "WeatherTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldGetWeatherWithTempClass"
+  }, {
+    "name" : "suite",
+    "value" : "WeatherTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7aa1b64f609ec5d9.json",
+  "parameterValues" : [ ]
+}

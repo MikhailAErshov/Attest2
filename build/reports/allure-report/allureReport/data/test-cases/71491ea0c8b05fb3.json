@@ -1,0 +1,72 @@
+{
+  "uid" : "71491ea0c8b05fb3",
+  "name" : "shouldGetWeatherWhenValidParameterZipCode()",
+  "fullName" : "WeatherTest.shouldGetWeatherWhenValidParameterZipCode",
+  "historyId" : "f6ed337f0df43c20f5b1cbb456f140ac",
+  "time" : {
+    "start" : 1681408730478,
+    "stop" : 1681408735041,
+    "duration" : 4563
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpRequest",
+    "time" : {
+      "start" : 1681408728794,
+      "stop" : 1681408730390,
+      "duration" : 1596
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "MIKHAIL-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5624@MIKHAIL-PC.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "WeatherTest"
+  }, {
+    "name" : "testClass",
+    "value" : "WeatherTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldGetWeatherWhenValidParameterZipCode"
+  }, {
+    "name" : "suite",
+    "value" : "WeatherTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71491ea0c8b05fb3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class WeatherTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class WeatherTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; WeatherTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">14</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">3</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">13.758s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">78%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="shouldGetWeatherOnRussianLanguageWhenSomeParameters()"></a>
+<h3 class="failures">shouldGetWeatherOnRussianLanguageWhenSomeParameters()</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)
+	at app//WeatherTest.shouldGetWeatherOnRussianLanguageWhenSomeParameters(WeatherTest.java:251)
+	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.6/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.6/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.6/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at app//org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.6/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldGetWeatherWhenAllParameters()"></a>
+<h3 class="failures">shouldGetWeatherWhenAllParameters()</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: 
+expected: &quot;IT&quot;
+ but was: &quot;US&quot;
+	at java.base@17.0.6/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@17.0.6/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base@17.0.6/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@17.0.6/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at app//WeatherTest.shouldGetWeatherWhenAllParameters(WeatherTest.java:184)
+	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.6/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.6/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.6/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at app//org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.6/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.6/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldGetWeatherWhenOneValidParameterByCityNameAndSomeInvalidParameters()"></a>
+<h3 class="failures">shouldGetWeatherWhenOneValidParameterByCityNameAndSomeInvalidParameters()</h3>
+<span class="code">
+<pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor82.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at WeatherTest.shouldGetWeatherWhenOneValidParameterByCityNameAndSomeInvalidParameters(WeatherTest.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldGetCityNameWhenValidParameterIsCoordinate()</td>
+<td class="success">0.545s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetCoordinatesWhenOneValidParameterIsCityName()</td>
+<td class="success">0.645s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetWeaterWhenInvalidParameterIsCoordinate()</td>
+<td class="success">0.414s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetWeatherInXMLformat()</td>
+<td class="success">2.695s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetWeatherOnRussianLanguageOnlyDescriptionParameterPositiveTest()</td>
+<td class="success">0.374s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">shouldGetWeatherOnRussianLanguageWhenSomeParameters()</td>
+<td class="failures">0.532s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">shouldGetWeatherWhenAllParameters()</td>
+<td class="failures">0.663s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">shouldGetWeatherWhenInvalidParameterIsCityId()</td>
+<td class="success">0.353s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetWeatherWhenInvalidParameterIsCityName()</td>
+<td class="success">0.508s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetWeatherWhenNoParameters()</td>
+<td class="success">0.445s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">shouldGetWeatherWhenOneValidParameterByCityNameAndSomeInvalidParameters()</td>
+<td class="failures">0.470s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">shouldGetWeatherWhenValidParameterIsCityId()</td>
+<td class="success">0.588s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetWeatherWhenValidParameterZipCode()</td>
+<td class="success">4.790s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldGetWeatherWithTempClass()</td>
+<td class="success">0.736s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 13 Apr 2023 17:58:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 477
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?zip=02109
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;coord&quot;: {
+        &quot;lon&quot;: -71.0545,
+        &quot;lat&quot;: 42.36
+    },
+    &quot;weather&quot;: [
+        {
+            &quot;id&quot;: 800,
+            &quot;main&quot;: &quot;Clear&quot;,
+            &quot;description&quot;: &quot;clear sky&quot;,
+            &quot;icon&quot;: &quot;01d&quot;
+        }
+    ],
+    &quot;base&quot;: &quot;stations&quot;,
+    &quot;main&quot;: {
+        &quot;temp&quot;: 302.86,
+        &quot;feels_like&quot;: 301.57,
+        &quot;temp_min&quot;: 299.96,
+        &quot;temp_max&quot;: 305.17,
+        &quot;pressure&quot;: 1006,
+        &quot;humidity&quot;: 29
+    },
+    &quot;visibility&quot;: 10000,
+    &quot;wind&quot;: {
+        &quot;speed&quot;: 3.58,
+        &quot;deg&quot;: 323,
+        &quot;gust&quot;: 5.81
+    },
+    &quot;clouds&quot;: {
+        &quot;all&quot;: 0
+    },
+    &quot;dt&quot;: 1681408732,
+    &quot;sys&quot;: {
+        &quot;type&quot;: 2,
+        &quot;id&quot;: 2013408,
+        &quot;country&quot;: &quot;US&quot;,
+        &quot;sunrise&quot;: 1681380404,
+        &quot;sunset&quot;: 1681428145
+    },
+    &quot;timezone&quot;: -14400,
+    &quot;id&quot;: 0,
+    &quot;name&quot;: &quot;Boston&quot;,
+    &quot;cod&quot;: 200
+}
+HTTP/1.1 404 Not Found
+Server: openresty
+Date: Thu, 13 Apr 2023 17:58:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 40
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=qwaqwaqwaqwaqwa
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;cod&quot;: &quot;404&quot;,
+    &quot;message&quot;: &quot;city not found&quot;
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 13 Apr 2023 17:58:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 470
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?q=berlin
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;coord&quot;: {
+        &quot;lon&quot;: 13.4105,
+        &quot;lat&quot;: 52.5244
+    },
+    &quot;weather&quot;: [
+        {
+            &quot;id&quot;: 800,
+            &quot;main&quot;: &quot;Clear&quot;,
+            &quot;description&quot;: &quot;clear sky&quot;,
+            &quot;icon&quot;: &quot;01d&quot;
+        }
+    ],
+    &quot;base&quot;: &quot;stations&quot;,
+    &quot;main&quot;: {
+        &quot;temp&quot;: 285.76,
+        &quot;feels_like&quot;: 284.67,
+        &quot;temp_min&quot;: 284.31,
+        &quot;temp_max&quot;: 286.47,
+        &quot;pressure&quot;: 1004,
+        &quot;humidity&quot;: 61
+    },
+    &quot;visibility&quot;: 10000,
+    &quot;wind&quot;: {
+        &quot;speed&quot;: 2.24,
+        &quot;deg&quot;: 220
+    },
+    &quot;clouds&quot;: {
+        &quot;all&quot;: 0
+    },
+    &quot;dt&quot;: 1681408089,
+    &quot;sys&quot;: {
+        &quot;type&quot;: 2,
+        &quot;id&quot;: 2011538,
+        &quot;country&quot;: &quot;DE&quot;,
+        &quot;sunrise&quot;: 1681359231,
+        &quot;sunset&quot;: 1681408782
+    },
+    &quot;timezone&quot;: 7200,
+    &quot;id&quot;: 2950159,
+    &quot;name&quot;: &quot;Berlin&quot;,
+    &quot;cod&quot;: 200
+}
+HTTP/1.1 400 Bad Request
+Server: openresty
+Date: Thu, 13 Apr 2023 17:58:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 44
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;cod&quot;: &quot;400&quot;,
+    &quot;message&quot;: &quot;Nothing to geocode&quot;
+}
+HTTP/1.1 400 Bad Request
+Server: openresty
+Date: Thu, 13 Apr 2023 17:58:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 40
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=960&amp;lon=480
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;cod&quot;: &quot;400&quot;,
+    &quot;message&quot;: &quot;wrong latitude&quot;
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 13 Apr 2023 17:59:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 485
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=42.36&amp;lon=-71.06&amp;q=boston
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;coord&quot;: {
+        &quot;lon&quot;: -71.0598,
+        &quot;lat&quot;: 42.3584
+    },
+    &quot;weather&quot;: [
+        {
+            &quot;id&quot;: 800,
+            &quot;main&quot;: &quot;Clear&quot;,
+            &quot;description&quot;: &quot;clear sky&quot;,
+            &quot;icon&quot;: &quot;01d&quot;
+        }
+    ],
+    &quot;base&quot;: &quot;stations&quot;,
+    &quot;main&quot;: {
+        &quot;temp&quot;: 302.84,
+        &quot;feels_like&quot;: 301.55,
+        &quot;temp_min&quot;: 299.94,
+        &quot;temp_max&quot;: 305.15,
+        &quot;pressure&quot;: 1006,
+        &quot;humidity&quot;: 29
+    },
+    &quot;visibility&quot;: 10000,
+    &quot;wind&quot;: {
+        &quot;speed&quot;: 3.58,
+        &quot;deg&quot;: 323,
+        &quot;gust&quot;: 5.81
+    },
+    &quot;clouds&quot;: {
+        &quot;all&quot;: 0
+    },
+    &quot;dt&quot;: 1681408740,
+    &quot;sys&quot;: {
+        &quot;type&quot;: 2,
+        &quot;id&quot;: 2013408,
+        &quot;country&quot;: &quot;US&quot;,
+        &quot;sunrise&quot;: 1681380405,
+        &quot;sunset&quot;: 1681428146
+    },
+    &quot;timezone&quot;: -14400,
+    &quot;id&quot;: 4930956,
+    &quot;name&quot;: &quot;Boston&quot;,
+    &quot;cod&quot;: 200
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 13 Apr 2023 17:59:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 477
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=48.85&amp;lon=2.35
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;coord&quot;: {
+        &quot;lon&quot;: 2.3488,
+        &quot;lat&quot;: 48.8534
+    },
+    &quot;weather&quot;: [
+        {
+            &quot;id&quot;: 802,
+            &quot;main&quot;: &quot;Clouds&quot;,
+            &quot;description&quot;: &quot;scattered clouds&quot;,
+            &quot;icon&quot;: &quot;03d&quot;
+        }
+    ],
+    &quot;base&quot;: &quot;stations&quot;,
+    &quot;main&quot;: {
+        &quot;temp&quot;: 284.74,
+        &quot;feels_like&quot;: 283.47,
+        &quot;temp_min&quot;: 282.88,
+        &quot;temp_max&quot;: 285.43,
+        &quot;pressure&quot;: 1007,
+        &quot;humidity&quot;: 58
+    },
+    &quot;visibility&quot;: 10000,
+    &quot;wind&quot;: {
+        &quot;speed&quot;: 3.09,
+        &quot;deg&quot;: 240
+    },
+    &quot;clouds&quot;: {
+        &quot;all&quot;: 40
+    },
+    &quot;dt&quot;: 1681408276,
+    &quot;sys&quot;: {
+        &quot;type&quot;: 2,
+        &quot;id&quot;: 2041230,
+        &quot;country&quot;: &quot;FR&quot;,
+        &quot;sunrise&quot;: 1681362261,
+        &quot;sunset&quot;: 1681411060
+    },
+    &quot;timezone&quot;: 7200,
+    &quot;id&quot;: 2988507,
+    &quot;name&quot;: &quot;Paris&quot;,
+    &quot;cod&quot;: 200
+}
+HTTP/1.1 400 Bad Request
+Server: openresty
+Date: Thu, 13 Apr 2023 17:59:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 57
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?id=hdfjks85758fhs
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;cod&quot;: &quot;400&quot;,
+    &quot;message&quot;: &quot;hdfjks85758fhs is not a city ID&quot;
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 13 Apr 2023 17:59:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 484
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?id=3169070&amp;lang=en&amp;lat=41.89&amp;lon=12.48&amp;mode=json&amp;q=rome&amp;units=imperial&amp;zip=00199
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;coord&quot;: {
+        &quot;lon&quot;: -85.1647,
+        &quot;lat&quot;: 34.257
+    },
+    &quot;weather&quot;: [
+        {
+            &quot;id&quot;: 804,
+            &quot;main&quot;: &quot;Clouds&quot;,
+            &quot;description&quot;: &quot;overcast clouds&quot;,
+            &quot;icon&quot;: &quot;04d&quot;
+        }
+    ],
+    &quot;base&quot;: &quot;stations&quot;,
+    &quot;main&quot;: {
+        &quot;temp&quot;: 64.02,
+        &quot;feels_like&quot;: 63.46,
+        &quot;temp_min&quot;: 61.21,
+        &quot;temp_max&quot;: 65.3,
+        &quot;pressure&quot;: 1014,
+        &quot;humidity&quot;: 71
+    },
+    &quot;visibility&quot;: 10000,
+    &quot;wind&quot;: {
+        &quot;speed&quot;: 17,
+        &quot;deg&quot;: 172,
+        &quot;gust&quot;: 28.99
+    },
+    &quot;clouds&quot;: {
+        &quot;all&quot;: 85
+    },
+    &quot;dt&quot;: 1681408456,
+    &quot;sys&quot;: {
+        &quot;type&quot;: 2,
+        &quot;id&quot;: 2038061,
+        &quot;country&quot;: &quot;US&quot;,
+        &quot;sunrise&quot;: 1681384325,
+        &quot;sunset&quot;: 1681430996
+    },
+    &quot;timezone&quot;: -14400,
+    &quot;id&quot;: 4219762,
+    &quot;name&quot;: &quot;Rome&quot;,
+    &quot;cod&quot;: 200
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 13 Apr 2023 17:59:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 489
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lang=ru&amp;q=rome&amp;units=metric
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;coord&quot;: {
+        &quot;lon&quot;: -85.1647,
+        &quot;lat&quot;: 34.257
+    },
+    &quot;weather&quot;: [
+        {
+            &quot;id&quot;: 804,
+            &quot;main&quot;: &quot;Clouds&quot;,
+            &quot;description&quot;: &quot;пасмурно&quot;,
+            &quot;icon&quot;: &quot;04d&quot;
+        }
+    ],
+    &quot;base&quot;: &quot;stations&quot;,
+    &quot;main&quot;: {
+        &quot;temp&quot;: 18.03,
+        &quot;feels_like&quot;: 17.74,
+        &quot;temp_min&quot;: 16.23,
+        &quot;temp_max&quot;: 19.1,
+        &quot;pressure&quot;: 1014,
+        &quot;humidity&quot;: 71
+    },
+    &quot;visibility&quot;: 10000,
+    &quot;wind&quot;: {
+        &quot;speed&quot;: 4.47,
+        &quot;deg&quot;: 136,
+        &quot;gust&quot;: 12.96
+    },
+    &quot;clouds&quot;: {
+        &quot;all&quot;: 85
+    },
+    &quot;dt&quot;: 1681408584,
+    &quot;sys&quot;: {
+        &quot;type&quot;: 2,
+        &quot;id&quot;: 2038061,
+        &quot;country&quot;: &quot;US&quot;,
+        &quot;sunrise&quot;: 1681384325,
+        &quot;sunset&quot;: 1681430996
+    },
+    &quot;timezone&quot;: -14400,
+    &quot;id&quot;: 4219762,
+    &quot;name&quot;: &quot;Ром&quot;,
+    &quot;cod&quot;: 200
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 13 Apr 2023 17:59:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 489
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lang=ru&amp;q=rome&amp;units=metric
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;coord&quot;: {
+        &quot;lon&quot;: -85.1647,
+        &quot;lat&quot;: 34.257
+    },
+    &quot;weather&quot;: [
+        {
+            &quot;id&quot;: 804,
+            &quot;main&quot;: &quot;Clouds&quot;,
+            &quot;description&quot;: &quot;пасмурно&quot;,
+            &quot;icon&quot;: &quot;04d&quot;
+        }
+    ],
+    &quot;base&quot;: &quot;stations&quot;,
+    &quot;main&quot;: {
+        &quot;temp&quot;: 18.03,
+        &quot;feels_like&quot;: 17.74,
+        &quot;temp_min&quot;: 16.23,
+        &quot;temp_max&quot;: 19.1,
+        &quot;pressure&quot;: 1014,
+        &quot;humidity&quot;: 71
+    },
+    &quot;visibility&quot;: 10000,
+    &quot;wind&quot;: {
+        &quot;speed&quot;: 4.47,
+        &quot;deg&quot;: 136,
+        &quot;gust&quot;: 12.96
+    },
+    &quot;clouds&quot;: {
+        &quot;all&quot;: 85
+    },
+    &quot;dt&quot;: 1681408584,
+    &quot;sys&quot;: {
+        &quot;type&quot;: 2,
+        &quot;id&quot;: 2038061,
+        &quot;country&quot;: &quot;US&quot;,
+        &quot;sunrise&quot;: 1681384325,
+        &quot;sunset&quot;: 1681430996
+    },
+    &quot;timezone&quot;: -14400,
+    &quot;id&quot;: 4219762,
+    &quot;name&quot;: &quot;Ром&quot;,
+    &quot;cod&quot;: 200
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 13 Apr 2023 17:59:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 469
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?id=88888888&amp;lat=888888888&amp;lon=888888888&amp;q=madrid&amp;zip=88888888
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;coord&quot;: {
+        &quot;lon&quot;: -3.7026,
+        &quot;lat&quot;: 40.4165
+    },
+    &quot;weather&quot;: [
+        {
+            &quot;id&quot;: 800,
+            &quot;main&quot;: &quot;Clear&quot;,
+            &quot;description&quot;: &quot;clear sky&quot;,
+            &quot;icon&quot;: &quot;01d&quot;
+        }
+    ],
+    &quot;base&quot;: &quot;stations&quot;,
+    &quot;main&quot;: {
+        &quot;temp&quot;: 287.41,
+        &quot;feels_like&quot;: 285.81,
+        &quot;temp_min&quot;: 286.01,
+        &quot;temp_max&quot;: 288.83,
+        &quot;pressure&quot;: 1019,
+        &quot;humidity&quot;: 35
+    },
+    &quot;visibility&quot;: 10000,
+    &quot;wind&quot;: {
+        &quot;speed&quot;: 7.2,
+        &quot;deg&quot;: 290
+    },
+    &quot;clouds&quot;: {
+        &quot;all&quot;: 0
+    },
+    &quot;dt&quot;: 1681408489,
+    &quot;sys&quot;: {
+        &quot;type&quot;: 2,
+        &quot;id&quot;: 2007545,
+        &quot;country&quot;: &quot;ES&quot;,
+        &quot;sunrise&quot;: 1681364398,
+        &quot;sunset&quot;: 1681411828
+    },
+    &quot;timezone&quot;: 7200,
+    &quot;id&quot;: 3117735,
+    &quot;name&quot;: &quot;Madrid&quot;,
+    &quot;cod&quot;: 200
+}
+HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 13 Apr 2023 17:59:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 485
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?id=5128581
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    &quot;coord&quot;: {
+        &quot;lon&quot;: -74.006,
+        &quot;lat&quot;: 40.7143
+    },
+    &quot;weather&quot;: [
+        {
+            &quot;id&quot;: 800,
+            &quot;main&quot;: &quot;Clear&quot;,
+            &quot;description&quot;: &quot;clear sky&quot;,
+            &quot;icon&quot;: &quot;01d&quot;
+        }
+    ],
+    &quot;base&quot;: &quot;stations&quot;,
+    &quot;main&quot;: {
+        &quot;temp&quot;: 303.12,
+        &quot;feels_like&quot;: 301.62,
+        &quot;temp_min&quot;: 299.8,
+        &quot;temp_max&quot;: 306.27,
+        &quot;pressure&quot;: 1011,
+        &quot;humidity&quot;: 26
+    },
+    &quot;visibility&quot;: 10000,
+    &quot;wind&quot;: {
+        &quot;speed&quot;: 5.81,
+        &quot;deg&quot;: 251,
+        &quot;gust&quot;: 8.49
+    },
+    &quot;clouds&quot;: {
+        &quot;all&quot;: 0
+    },
+    &quot;dt&quot;: 1681408345,
+    &quot;sys&quot;: {
+        &quot;type&quot;: 2,
+        &quot;id&quot;: 2008101,
+        &quot;country&quot;: &quot;US&quot;,
+        &quot;sunrise&quot;: 1681381231,
+        &quot;sunset&quot;: 1681428734
+    },
+    &quot;timezone&quot;: -14400,
+    &quot;id&quot;: 5128581,
+    &quot;name&quot;: &quot;New York&quot;,
+    &quot;cod&quot;: 200
+}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 13 апр. 2023 г., 20:59:04</p>
+</div>
+</div>
+</body>
+</html>

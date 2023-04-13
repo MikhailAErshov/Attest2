@@ -1,0 +1,191 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "WeatherTest",
+    "children" : [ {
+      "name" : "shouldGetWeatherWhenValidParameterZipCode()",
+      "uid" : "71491ea0c8b05fb3",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681408730478,
+        "stop" : 1681408735041,
+        "duration" : 4563
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetWeatherWhenInvalidParameterIsCityName()",
+      "uid" : "6a7f447645511013",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681408735274,
+        "stop" : 1681408735765,
+        "duration" : 491
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetCoordinatesWhenOneValidParameterIsCityName()",
+      "uid" : "bc1c31bd8ea46dba",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681408735789,
+        "stop" : 1681408736374,
+        "duration" : 585
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetWeatherWhenNoParameters()",
+      "uid" : "b31d1111994c57ca",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681408736450,
+        "stop" : 1681408736891,
+        "duration" : 441
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetWeaterWhenInvalidParameterIsCoordinate()",
+      "uid" : "a7706d2ecb77c41",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681408736898,
+        "stop" : 1681408737311,
+        "duration" : 413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetWeatherInXMLformat()",
+      "uid" : "2d82b42cb132cb43",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681408737315,
+        "stop" : 1681408739996,
+        "duration" : 2681
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetWeatherWithTempClass()",
+      "uid" : "7aa1b64f609ec5d9",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681408740013,
+        "stop" : 1681408740632,
+        "duration" : 619
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetCityNameWhenValidParameterIsCoordinate()",
+      "uid" : "58105dfd6e183141",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681408740775,
+        "stop" : 1681408741280,
+        "duration" : 505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetWeatherWhenInvalidParameterIsCityId()",
+      "uid" : "93d7ae74117df572",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681408741328,
+        "stop" : 1681408741679,
+        "duration" : 351
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetWeatherWhenAllParameters()",
+      "uid" : "e6502b47d8ce3c5",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1681408741682,
+        "stop" : 1681408742264,
+        "duration" : 582
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetWeatherOnRussianLanguageWhenSomeParameters()",
+      "uid" : "4390cb2d239328d0",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1681408742386,
+        "stop" : 1681408742892,
+        "duration" : 506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetWeatherOnRussianLanguageOnlyDescriptionParameterPositiveTest()",
+      "uid" : "5308d955abe9a079",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681408742943,
+        "stop" : 1681408743315,
+        "duration" : 372
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetWeatherWhenOneValidParameterByCityNameAndSomeInvalidParameters()",
+      "uid" : "4b532cd468d5d90d",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1681408743319,
+        "stop" : 1681408743753,
+        "duration" : 434
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldGetWeatherWhenValidParameterIsCityId()",
+      "uid" : "d8ba2e35e796099b",
+      "parentUid" : "9a062358742f0382165cef9f095ccda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681408743798,
+        "stop" : 1681408744296,
+        "duration" : 498
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9a062358742f0382165cef9f095ccda2"
+  } ]
+}

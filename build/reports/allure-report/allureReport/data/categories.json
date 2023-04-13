@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "\r\nexpected: \"IT\"\r\n but was: \"US\"",
+      "children" : [ {
+        "name" : "shouldGetWeatherWhenAllParameters()",
+        "uid" : "e6502b47d8ce3c5",
+        "parentUid" : "220eb5a61fea69c18b86a002942b03bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1681408741682,
+          "stop" : 1681408742264,
+          "duration" : 582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "220eb5a61fea69c18b86a002942b03bf"
+    }, {
+      "name" : "expected: <true> but was: <false>",
+      "children" : [ {
+        "name" : "shouldGetWeatherOnRussianLanguageWhenSomeParameters()",
+        "uid" : "4390cb2d239328d0",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1681408742386,
+          "stop" : 1681408742892,
+          "duration" : 506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "845845d2ca1b5f839f479796c2627505"
+    }, {
+      "name" : "1 expectation failed.\nExpected status code <404> but was <200>.\n",
+      "children" : [ {
+        "name" : "shouldGetWeatherWhenOneValidParameterByCityNameAndSomeInvalidParameters()",
+        "uid" : "4b532cd468d5d90d",
+        "parentUid" : "9d2de2ceab9cc49841510f4abdd9fbb6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1681408743319,
+          "stop" : 1681408743753,
+          "duration" : 434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d2de2ceab9cc49841510f4abdd9fbb6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

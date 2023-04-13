@@ -1,0 +1,72 @@
+{
+  "uid" : "58105dfd6e183141",
+  "name" : "shouldGetCityNameWhenValidParameterIsCoordinate()",
+  "fullName" : "WeatherTest.shouldGetCityNameWhenValidParameterIsCoordinate",
+  "historyId" : "2a889ca55d00bf2bc61db63858ce9a8c",
+  "time" : {
+    "start" : 1681408740775,
+    "stop" : 1681408741280,
+    "duration" : 505
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpRequest",
+    "time" : {
+      "start" : 1681408728794,
+      "stop" : 1681408730390,
+      "duration" : 1596
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "MIKHAIL-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5624@MIKHAIL-PC.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "WeatherTest"
+  }, {
+    "name" : "testClass",
+    "value" : "WeatherTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldGetCityNameWhenValidParameterIsCoordinate"
+  }, {
+    "name" : "suite",
+    "value" : "WeatherTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58105dfd6e183141.json",
+  "parameterValues" : [ ]
+}
